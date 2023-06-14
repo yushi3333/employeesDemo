@@ -27,6 +27,7 @@ function App() {
     position:position,
     wage:wage,
   }).then(()=>{
+    alert("add the employees successfully!")
     console.log("success added");
   });
 
